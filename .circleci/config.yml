@@ -12,7 +12,7 @@ jobs:
                   - 'f0:77:80:d7:33:77:d3:f3:68:78:f6:76:52:ce:31:7b'
       - checkout
       - run: git clone $FORK_URL/$PJ_NAME
-      - run: echo "git clone $FORK_URL/$PJ_NAME"
+        #- run: echo "git clone $FORK_URL/$PJ_NAME"
       - run: cd  $PJ_NAME
         #- run: echo "cd  $PJ_NAME"
       - run: git remote add upstream $ORIG_URL/$PJ_NAME
